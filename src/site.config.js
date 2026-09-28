@@ -9,7 +9,7 @@ export const site = {
   // ── First thing to change ───────────────────────────────────────────────
   // A bar at the top of the page saying the content is placeholder. It is on
   // for the template's own demo; turn it off once the page is about you.
-  demoNotice: true,
+  demoNotice: false,
   // Where the template lives, linked from that bar.
   repo: "https://github.com/siruizou2005/academic-homepage",
 
