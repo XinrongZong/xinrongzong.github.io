@@ -15,7 +15,7 @@
 // Images are imported from src/assets/ rather than written as public/ paths,
 // so Astro can compress them, convert to WebP and emit a srcset at build time.
 // Swap the files in place and the build takes care of the rest.
-import photo from "./assets/photo.jpg";
+import photo from "./assets/e1029253497342d2ce87a360b4b7b3b7.png";
 import northfield from "./assets/logos/northfield.png";
 import lakeside from "./assets/logos/lakeside.png";
 import riverbend from "./assets/logos/riverbend.png";
