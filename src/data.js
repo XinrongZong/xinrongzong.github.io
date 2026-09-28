@@ -58,19 +58,19 @@ export const news = [];
 export const education = [
   {
     org: "Politecnico di Milano",
-    role: "M.Sc. in Food Engineering · Expected graduation: Mar. 2027 · Expected final grade: 101/110",
+    role: "M.Sc. in Food Engineering · Expected graduation: Mar. 2027 ·
     date: "Sep. 2024 – Present",
     url: "https://www.polimi.it/",
   },
   {
     org: "Middle East Technical University",
-    role: "Erasmus+ Exchange Student, Department of Chemical Engineering · GPA: 3.60/4.00",
+    role: "Erasmus+ Exchange Student, Department of Chemical Engineering · 
     date: "Feb. 2026 – Aug. 2026",
     url: "https://www.metu.edu.tr/",
   },
   {
     org: "Hong Kong University of Science and Technology",
-    role: "Visiting Internship, Department of Chemistry · Grade: 92.5/100",
+    role: "Visiting Internship, Department of Chemistry ·
     date: "Feb. 2024 – Aug. 2024",
     url: "https://hkust.edu.hk/",
   },
