@@ -44,7 +44,7 @@ export const profile = {
 export const about = [
   `I am a Master’s student in Food Engineering at Politecnico di Milano, with expected graduation in April 2027. My research interests sit at the intersection of materials chemistry, sensing, molecular interactions, and quantitative analysis, with a particular focus on how molecular and structural features govern selective recognition and measurable response.`,
 
-  `My previous research involved electrochemical sensing using screen-printed carbon electrodes and data analysis with CNN/SVM-based machine-learning methods, alongside experimental and simulated datasets. This work contributed to a peer-reviewed publication in the <em>Journal of Electroanalytical Chemistry</em>. I am currently working with Prof. Massimo Cametti on my master’s thesis, where I am studying functional coordination materials for selective VOC adsorption and developing a molecular-level understanding of how crystal packing, intermolecular interactions, host–guest chemistry, and structural dynamics influence adsorption behavior.`,
+  `My previous research involved electrochemical sensing using screen-printed carbon electrodes and data analysis with CNN/SVM-based machine-learning methods, alongside experimental and simulated datasets. I am currently working with Prof. Massimo Cametti on my master’s thesis, where I am studying functional coordination materials for selective VOC adsorption and developing a molecular-level understanding of how crystal packing, intermolecular interactions, host–guest chemistry, and structural dynamics influence adsorption behavior.`,
 
   `For my PhD, I hope to investigate systems in which molecular design, functional materials, sensing, and data-driven methods can be combined to understand and control selective interactions in chemical, environmental, food, or biological contexts.`,
 ];
@@ -53,53 +53,32 @@ export const about = [
 // Short, dated updates — new papers, talks, moves. Keep the newest first and
 // the list short; three to six entries reads best. Empty the array to hide
 // the section entirely.
-export const news = [
-  {
-    date: "Jan 2026",
-    text: `Our paper on matching markets was accepted at the
-           <em>Journal of Example Economics</em>.`,
-  },
-  {
-    date: "Nov 2025",
-    text: `Presented <strong>Simulating Thin Markets</strong> at the Example
-           Workshop on Computational Economics.`,
-  },
-  {
-    date: "Sep 2025",
-    text: `Started as a research intern at the Example Institute for Economic
-           Research.`,
-  },
-  {
-    date: "Jun 2025",
-    text: `Released <a href="https://github.com/example">policy-parse</a>, an
-           open-source toolkit for extracting structured policy attributes
-           from government documents.`,
-  },
-];
-
-// `logo` and `url` are optional. `url` is the institution's homepage; it also
-// feeds the structured-data block that tells search engines where you studied.
+export const news = [];
+ 
 export const education = [
   {
-    org: "Northfield University",
-    role: "Ph.D. in Economics",
-    date: "Sep 2023 – Jun 2028 (expected)",
-    logo: northfield,
-    url: "https://example.edu/",
+    org: "Politecnico di Milano",
+    role: "M.Sc. in Food Engineering · Expected graduation: Mar. 2027 · Expected final grade: 101/110",
+    date: "Sep. 2024 – Present",
+    url: "https://www.polimi.it/",
   },
   {
-    org: "Lakeside Institute of Technology",
-    role: "Visiting Student, Department of Economics",
-    date: "Jan 2023 – Jun 2023",
-    logo: lakeside,
-    url: "https://example.org/",
+    org: "Middle East Technical University",
+    role: "Erasmus+ Exchange Student, Department of Chemical Engineering · GPA: 3.60/4.00",
+    date: "Feb. 2026 – Aug. 2026",
+    url: "https://www.metu.edu.tr/",
   },
   {
-    org: "Riverbend State University",
-    role: "B.A. in Economics, minor in Statistics",
-    date: "Sep 2019 – Jun 2023",
-    logo: riverbend,
-    url: "https://example.net/",
+    org: "Hong Kong University of Science and Technology",
+    role: "Visiting Internship, Department of Chemistry · Grade: 92.5/100",
+    date: "Feb. 2024 – Aug. 2024",
+    url: "https://hkust.edu.hk/",
+  },
+  {
+    org: "Northwest A&F University",
+    role: "B.Eng. in Food Science and Engineering · GPA: 85.7/100",
+    date: "Sep. 2020 – Jun. 2024",
+    url: "https://en.nwsuaf.edu.cn/",
   },
 ];
 
@@ -204,32 +183,46 @@ export const experience = [
 ];
 
 // Software, tools, datasets — anything you built that stands on its own.
-export const projects = [
+export const publications = [
   {
-    org: "policy-parse",
-    desc: "An open-source toolkit that turns government documents into a structured policy database, with a fine-tuned classifier for screening and an LLM extraction stage for attributes.",
-    role: "Author and maintainer · 1.2k stars",
-    date: "2024 – Present",
-    // Each entry becomes an outlined button, in the order you list them.
-    // Label them for what they are: Code, Website, Docs, Demo, Slides, Data.
+    title:
+      "Enhancing or not: What dominates the response signal of phenolic compounds on electro-activated glassy carbon electrode?",
+    authors:
+      "Qingshuang Wei, <strong>Xinrong Zong</strong>, Yitao Lv, Chaoqi Wang, Jiacheng Wang, Min Zhang",
+    venue:
+      "<em>Journal of Electroanalytical Chemistry</em>, 967 (2024), 118457",
+    abstract:
+      "Electro-activation has been an important surface modification strategy to enhance the signal of analytes on glassy carbon electrodes (GCE). This study investigated the factors governing the electrochemical response of phenolic compounds on electro-activated glassy carbon electrodes, with particular attention to surface functional groups and molecular structure. The results highlight how both electrode surface chemistry and analyte structure influence adsorption and electrochemical response.",
+   links: [
+  { label: "Paper", href: "https://www.sciencedirect.com/science/article/pii/S1572665724004351" },
+],
+
+  {
+    title:
+      "Subtle adjustment of the cyclic potential on electro-activated glassy carbon electrodes for sensitive sensing of methyl parathion",
+    authors:
+      "Yunyin Yang, Sian Chen, Changqiu Zhang, Yanqing Li, <strong>Xinrong Zong</strong>, Yitao Lv, Min Zhang",
+    venue:
+      "<em>Analytical Methods</em>, 16 (2024), 2522–2532",
+    abstract:
+      "This study examined how small changes in the cyclic potential used during electro-activation affect the analytical performance of glassy carbon electrodes for methyl parathion sensing. By relating electrochemical performance to changes in electrode surface composition and structure, the work provides insight into how activation conditions can be tuned to improve sensitivity and reproducibility.",
     links: [
-      { label: "Code", href: "https://github.com/example" },
-      { label: "Docs", href: "https://example.com/docs" },
-      { label: "Website", href: "https://example.com" },
-    ],
+      {label: "Paper", href: "https://pubs.rsc.org/ay/article-abstract/16/16/2522/836811/Subtle-adjustment-of-the-cyclic-potential-on?redirectedFrom=fulltext"},
   },
+
   {
-    org: "thinmarket",
-    desc: "A small simulation library for agent-based matching markets, used for the experiments in the paper above.",
-    role: "Author",
-    date: "2024",
-    links: [
-      { label: "Code", href: "https://github.com/example" },
-      { label: "Demo", href: "https://example.com/demo" },
-    ],
+    title:
+      "Research Progress on Electrochemical Paper-Based Analytical Devices for the Detection of Pesticide Residues",
+    authors:
+      "Yanqing Li, <strong>Xinrong Zong</strong>, Sian Chen, Min Zhang",
+    venue:
+      "<em>Food Science</em>, 2023, 15, 252–262",
+    abstract:
+      "This review summarizes recent progress in electrochemical paper-based analytical devices for pesticide-residue detection. It discusses paper selection, electrode fabrication, recognition elements, electrochemical detection strategies, and practical applications, while highlighting current limitations and future directions for portable and low-cost pesticide monitoring.",
+    links: 
+     {label: "Paper", href: "https://www.sciopen.com/article/10.7506/spkx1002-6630-20230915-133"}
   },
 ];
-
 // Grants, prizes, fellowships. Empty the array to hide the section.
 export const awards = [
   {
