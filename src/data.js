@@ -58,19 +58,19 @@ export const news = [];
 export const education = [
   {
     org: "Politecnico di Milano",
-    role: "M.Sc. in Food Engineering · Expected graduation: Mar. 2027 ·
+    role: "M.Sc. in Food Engineering · Expected graduation: Mar. 2027",
     date: "Sep. 2024 – Present",
     url: "https://www.polimi.it/",
   },
   {
     org: "Middle East Technical University",
-    role: "Erasmus+ Exchange Student, Department of Chemical Engineering · 
+    role: "Erasmus+ Exchange Student, Department of Chemical Engineering · GPA: 3.60/4.00",
     date: "Feb. 2026 – Aug. 2026",
     url: "https://www.metu.edu.tr/",
   },
   {
     org: "Hong Kong University of Science and Technology",
-    role: "Visiting Internship, Department of Chemistry ·
+    role: "Visiting Internship, Department of Chemistry · Grade: 92.5/100",
     date: "Feb. 2024 – Aug. 2024",
     url: "https://hkust.edu.hk/",
   },
@@ -82,9 +82,6 @@ export const education = [
   },
 ];
 
-// Published or accepted work. `abstract` and `bibtex` expand in place;
-// everything in `links` becomes a button that opens in a new tab.
-// All fields except `title` are optional.
 
 export const publications = [
   {
@@ -96,9 +93,13 @@ export const publications = [
       "<em>Journal of Electroanalytical Chemistry</em>, 967 (2024), 118457",
     abstract:
       "Electro-activation has been an important surface modification strategy to enhance the signal of analytes on glassy carbon electrodes (GCE). This study investigated the factors governing the electrochemical response of phenolic compounds on electro-activated glassy carbon electrodes, with particular attention to surface functional groups and molecular structure. The results highlight how both electrode surface chemistry and analyte structure influence adsorption and electrochemical response.",
-   links: [
-  { label: "Paper", href: "https://www.sciencedirect.com/science/article/pii/S1572665724004351" },
-],
+    links: [
+      {
+        label: "Paper",
+        href: "https://www.sciencedirect.com/science/article/pii/S1572665724004351",
+      },
+    ],
+  },
 
   {
     title:
@@ -110,7 +111,11 @@ export const publications = [
     abstract:
       "This study examined how small changes in the cyclic potential used during electro-activation affect the analytical performance of glassy carbon electrodes for methyl parathion sensing. By relating electrochemical performance to changes in electrode surface composition and structure, the work provides insight into how activation conditions can be tuned to improve sensitivity and reproducibility.",
     links: [
-      {label: "Paper", href: "https://pubs.rsc.org/ay/article-abstract/16/16/2522/836811/Subtle-adjustment-of-the-cyclic-potential-on?redirectedFrom=fulltext"},
+      {
+        label: "Paper",
+        href: "https://pubs.rsc.org/ay/article-abstract/16/16/2522/836811/Subtle-adjustment-of-the-cyclic-potential-on?redirectedFrom=fulltext",
+      },
+    ],
   },
 
   {
@@ -122,11 +127,16 @@ export const publications = [
       "<em>Food Science</em>, 2023, 15, 252–262",
     abstract:
       "This review summarizes recent progress in electrochemical paper-based analytical devices for pesticide-residue detection. It discusses paper selection, electrode fabrication, recognition elements, electrochemical detection strategies, and practical applications, while highlighting current limitations and future directions for portable and low-cost pesticide monitoring.",
-    links: 
-     {label: "Paper", href: "https://www.sciopen.com/article/10.7506/spkx1002-6630-20230915-133"}
+    links: [
+      {
+        label: "Paper",
+        href: "https://www.sciopen.com/article/10.7506/spkx1002-6630-20230915-133",
+      },
+    ],
   },
 ];
-// Grants, prizes, fellowships. Empty the array to hide the section.
+
+export const workingPapers = [];
 
 export const experience = [
   {
@@ -159,5 +169,7 @@ export const experience = [
 
 // Software, tools, datasets — anything you built that stands on its own.
 
-
+export const projects = [];
+export const awards = [];
+export const teaching = [];
 export const lastUpdated = "September 2026";
