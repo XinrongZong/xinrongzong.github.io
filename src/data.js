@@ -24,28 +24,19 @@ import riverbend from "./assets/logos/riverbend.png";
 // means anyone who saves it can tell which version they have. To update:
 // drop the new PDF into public/ under a new name, then change this line —
 // the sidebar link and the About text both read this constant.
-export const CV_URL = "Jane_Doe_CV_Jan2026.pdf";
+
+export const CV_URL = "Xinrong_Zong_CV.pdf";
 
 export const profile = {
-  nameEn: "Jane Doe",
-  // Optional second name shown next to the English one in the masthead, meant
-  // for a name in a non-Latin script (Chinese, Japanese, Korean, Greek,
-  // Cyrillic…). Leave it empty and nothing renders.
-  //
-  // For Chinese specifically the template ships a font-subsetting script so
-  // the characters load in the right serif rather than falling back to the
-  // system font — see the "Chinese (or other CJK) name" section of the README.
+  nameEn: "Xinrong Zong",
   nameCn: "",
-  // Each string is one line, so you control where the role wraps.
-  role: ["Ph.D. Student in Economics,", "Northfield University"],
-  location: "Northfield, Example State",
-  photo, // src/assets/photo.jpg; a grey placeholder shows if it fails to load
+  role: ["M.Sc. Candidate in Chemical(Food) Engineering", "Politecnico di Milano"],
+  location: "Milan, Italy",
+  photo,
   links: [
-    { label: "Email", href: "mailto:jane.doe@example.edu" },
-    { label: "GitHub", href: "https://github.com/example" },
-    { label: "Google Scholar", href: "https://scholar.google.com/" },
-    // newTab: true opens the PDF in the browser's viewer instead of
-    // navigating away from the page.
+    { label: "Email", href: "mailto:xinrong.zong@mail.polimi.it" },
+    { label: "GitHub", href: "https://github.com/XinrongZong" },
+    { label: "Google Scholar", href: "https://scholar.google.com/citations?user=MMVpEHgAAAAJ&hl=zh-CN" },
     { label: "CV (PDF)", href: CV_URL, newTab: true },
   ],
 };
