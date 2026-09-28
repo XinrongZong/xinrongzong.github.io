@@ -30,7 +30,7 @@ export const CV_URL = "Xinrong_Zong_CV.pdf";
 export const profile = {
   nameEn: "Xinrong Zong",
   nameCn: "",
-  role: ["M.Sc. Candidate in Chemical(Food) Engineering", "Politecnico di Milano"],
+  role: ["M.Sc. Candidate in Food Engineering", "Politecnico di Milano"],
   location: "Milan, Italy",
   photo,
   links: [
@@ -42,22 +42,13 @@ export const profile = {
 };
 
 export const about = [
-  `I am a Ph.D. student in Economics at
-   <a href="https://example.edu/">Northfield University</a>, advised by
-   Prof. <a href="https://example.edu/faculty/a-smith">Alice Smith</a>. Before
-   that I read Economics at Riverbend State University and spent a term as a
-   visiting student at the Lakeside Institute of Technology.`,
-  `I study how the design of a market shapes what the people inside it do. My
-   current work combines field data with large-scale simulation: I build
-   agent-based models of matching markets, then test their predictions against
-   administrative records from online labour platforms. A second line of work
-   uses text-as-data methods to measure policy from government documents at a
-   scale hand-coding cannot reach.`,
-  `I am always glad to hear from people working on adjacent questions — market
-   design, computational social science, or text as data. You can reach me by
-   <a href="mailto:jane.doe@example.edu">email</a>, or read
-   <a href="${CV_URL}" target="_blank" rel="noopener noreferrer">my CV here</a>.`,
+  `I am a Master’s student in Food Engineering at Politecnico di Milano, with expected graduation in March 2027. My research interests sit at the intersection of materials chemistry, sensing, molecular interactions, and quantitative analysis, with a particular focus on how molecular and structural features govern selective recognition and measurable response.`,
+
+  `My previous research involved electrochemical sensing using screen-printed carbon electrodes and data analysis with CNN/SVM-based machine-learning methods, alongside experimental and simulated datasets. This work contributed to a peer-reviewed publication in the <em>Journal of Electroanalytical Chemistry</em>. I am currently working with Prof. Massimo Cametti on my master’s thesis, where I am studying functional coordination materials for selective VOC adsorption and developing a molecular-level understanding of how crystal packing, intermolecular interactions, host–guest chemistry, and structural dynamics influence adsorption behavior.`,
+
+  `For my PhD, I hope to investigate systems in which molecular design, functional materials, sensing, and data-driven methods can be combined to understand and control selective interactions in chemical, environmental, food, or biological contexts.`,
 ];
+
 
 // Short, dated updates — new papers, talks, moves. Keep the newest first and
 // the list short; three to six entries reads best. Empty the array to hide
