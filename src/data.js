@@ -58,25 +58,25 @@ export const news = [];
 export const education = [
   {
     org: "Politecnico di Milano",
-    role: "M.Sc. in Food Engineering · Expected graduation: April. 2027",
+    role: "M.Sc. in Food Engineering · Expected graduation: April. 2027.",
     date: "Sep. 2024 – Present",
     url: "https://www.polimi.it/",
   },
   {
     org: "Middle East Technical University",
-    role: "Erasmus+ Exchange Student, Department of Chemical Engineering · ",
+    role: "Erasmus+ Exchange Student, Department of Chemical Engineering. ",
     date: "Feb. 2026 – Aug. 2026",
     url: "https://www.metu.edu.tr/",
   },
   {
     org: "Hong Kong University of Science and Technology",
-    role: "Visiting Internship, Department of Chemistry · ",
+    role: "Visiting Internship, Department of Chemistry. ",
     date: "Feb. 2024 – Aug. 2024",
     url: "https://hkust.edu.hk/",
   },
   {
     org: "Northwest A&F University",
-    role: "B.Eng. in Food Science and Engineering · ",
+    role: "B.Eng. in Food Science and Engineering. ",
     date: "Sep. 2020 – Jun. 2024",
     url: "https://en.nwsuaf.edu.cn/",
   },
