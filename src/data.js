@@ -42,7 +42,7 @@ export const profile = {
 };
 
 export const about = [
-  `I am a Master’s student in Food Engineering at Politecnico di Milano, with expected graduation in April 2027. My research interests sit at the intersection of materials chemistry, sensing, molecular interactions, and quantitative analysis, with a particular focus on how molecular and structural features govern selective recognition and measurable response.`,
+  `I am a Master’s student in Food Engineering at Politecnico di Milano, with expected graduation in April 2027. I am an experimental functional-materials and electrochemical-interface researcher focused on selective, reliable sensing, with quantitative/data-analysis skills.
 
   `My previous research involved electrochemical sensing using screen-printed carbon electrodes and data analysis with CNN/SVM-based machine-learning methods, alongside experimental and simulated datasets. I am currently working with Prof. Massimo Cametti on my master’s thesis, where I am studying functional coordination materials for selective VOC adsorption and developing a molecular-level understanding of how crystal packing, intermolecular interactions, host–guest chemistry, and structural dynamics influence adsorption behavior.`,
 
